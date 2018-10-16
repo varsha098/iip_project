@@ -46,4 +46,5 @@ $(document).ready(function(){
     $([document.documentElement, document.body]).animate({
         scrollTop:$('.div2').offset().top
     }, 700);
+    console.log('abc')
   }
